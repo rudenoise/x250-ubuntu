@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get install -y git
 git config --global user.name "rudenoise"
 git config --global user.email rudenoise@gmail.com
