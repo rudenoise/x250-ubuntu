@@ -9,6 +9,7 @@ apt-get purge lxc-docker
 apt-cache policy docker-engine
 apt-get install linux-image-extra-$(uname -r)
 apt-get install docker-engine
+gpasswd -a ${USER} docker
 service docker start
 docker run hello-world
 apt-get install -y curl
