@@ -7,3 +7,4 @@ apt-get upgrade
 . git.sh
 . vim.sh
 . ocra.sh
+. docker-env.sh
