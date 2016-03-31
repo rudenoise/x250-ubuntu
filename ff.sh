@@ -1,4 +1,4 @@
 #!/bin/bash
-add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
-apt-get update
-apt-get install firefox
+sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+sudo apt-get update
+sudo apt-get install firefox

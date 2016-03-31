@@ -1,17 +1,17 @@
 #!/bin/bash
 set -e
 
-apt-get install vim
+sudo apt-get install vim
 
-apt-get install software-properties-common
-add-apt-repository ppa:neovim-ppa/unstable
-apt-get update
-apt-get install neovim
-apt-get install python-dev python-pip python3-dev python3-pip
-update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
-update-alternatives --config vim
-update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
-update-alternatives --config editor
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+sudo apt-get install python-dev python-pip python3-dev python3-pip
+sudo update-alternatives --install /usr/bin/vim vim /usr/bin/nvim 60
+sudo update-alternatives --config vim
+sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
+sudo update-alternatives --config editor
 
 cd ~/code
 git clone ssh://git@github.com/rudenoise/vimrc.git
@@ -27,8 +27,8 @@ git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 mkdir ~/.vim/autoload;
 mkdir ~/.vim/plugin;
 
-wget https://raw2.github.com/kien/rainbow_parentheses.vim/master/autoload/rainbow_parentheses.vim -P $HOME/.vim/autoload/;
-wget https://raw2.github.com/kien/rainbow_parentheses.vim/master/plugin/rainbow_parentheses.vim -P $HOME/.vim/plugin/;
+wget https://raw.githubusercontent.com/kien/rainbow_parentheses.vim/master/autoload/rainbow_parentheses.vim -P $HOME/.vim/autoload/;
+wget https://raw.github.com/kien/rainbow_parentheses.vim/master/plugin/rainbow_parentheses.vim -P $HOME/.vim/plugin/;
 
 mkdir -p ${XDG_CONFIG_HOME:=$HOME/.config}
 ln -s ~/.vim $XDG_CONFIG_HOME/nvim
