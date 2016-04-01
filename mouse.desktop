@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MouseScript
+GenericName=Mouse Buttons
+Comment=Setup Logitech USB Trackball
+Exec=/home/rudenoise/bin/mouse.sh
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
