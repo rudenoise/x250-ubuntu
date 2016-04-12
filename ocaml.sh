@@ -20,3 +20,11 @@ echo '#require "core.top";;'
 echo '#require "core.syntax";;'
 
 opam install ocp-indent merlin
+
+cd ~/code
+
+git clone https://github.com/def-lkb/ocp-indent-vim.git
+
+ln -s ~/code/ocp-indent-vim ~/.vim/bundle/ocp-indent-vim
+
+cd ~/
