@@ -9,3 +9,4 @@ apt-get upgrade
 . vim.sh
 . ocra.sh
 . docker-env.sh
+. bits-n-peices.sh 
