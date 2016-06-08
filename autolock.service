@@ -1,0 +1,11 @@
+[Unit]
+Description=Lock the screen automatically after a timeout
+
+[Service]
+Type=simple
+User=rudenoise
+Environment=DISPLAY=:0
+ExecStart=/usr/bin/xautolock -time 5 -locker "i3lock -i /home/rudenoise/code/vimrc/bg.png -t" -notify 30 -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
+
+[Install]
+WantedBy=graphical.target
