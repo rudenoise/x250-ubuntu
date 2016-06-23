@@ -19,8 +19,8 @@ cd vimrc
 cp .vimrc ~/.vimrc
 cd ~/code/x250-ubuntu
 
-mkdir ~/.vim/autoload;
-mkdir ~/.vim/plugin;
+mkdir -p ~/.vim/autoload;
+mkdir -p ~/.vim/plugin;
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
