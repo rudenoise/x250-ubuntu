@@ -5,18 +5,17 @@ sudo apt-get --allow-unauthenticated install sur5r-keyring
 sudo apt-get update
 sudo apt-get -y install i3
 sudo apt-get -y install feh
+sudo apt-get install -y xbacklight
+sudo apt-get install -y xautolock
+
 cp ~/code/x250-ubuntu/desktop-bg-i3.sh ~/bin/
 chmod +x ~/bin/desktop-bg-i3.sh
-
-
-sudo apt-get install -y xbacklight
-
-sudo apt-get install -y xautolock
 
 cp i3wm-lock.sh ~/bin/lock
 sudo chmod +x ~/bin/lock
 
-cp i3wm-autolock.sh ~/bin/autolock
-echo "exec ~/bin/autolock" >> ~/.config/i3/config
+cp autolock.sh ~/bin/autolock
+sudo chmod +x ~/bin/autolock
 
 cp ~/code/x250-ubuntu/i3wm.config ~/.config/i3/config
+cp ~/code/x250-ubuntu/.i3status.conf ~/
