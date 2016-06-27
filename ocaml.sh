@@ -4,10 +4,9 @@ set -e
 sudo apt-get install opam
 opam init
 eval `opam config env`
-eval `opam config env`
 opam switch 4.02.3
+eval $(opam config env)
 opam depext conf-m4.1
-
 # some core libs
 opam install batteries core
 # a repl

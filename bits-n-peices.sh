@@ -8,3 +8,6 @@ sudo apt-get update
 sudo apt-get install -y pandoc
 sudo apt-get install -y redshift
 sudo apt-get install -y tlp tlp-rdw tpacpi-bat
+sudo apt-get install -y texlive
+
+gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
