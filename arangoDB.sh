@@ -11,4 +11,4 @@ sudo -u root -H sh -c "echo 'deb https://www.arangodb.com/repositories/arangodb3
 
 sudo apt-get install apt-transport-https
 sudo apt-get update
-sudo apt-get install arangodb3=3.0.2
+sudo apt-get install arangodb3=3.0.3
