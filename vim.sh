@@ -29,7 +29,7 @@ git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 
 git clone --depth=1 https://github.com/scrooloose/syntastic.git ~/.vim/bundle/syntastic
 
-git clone https://github.com/keith/swift.vim.git ~/.vim/swift.vim.git
+git clone https://github.com/keith/swift.vim.git ~/.vim/bundle/swift.vim.git
 
 wget https://raw.githubusercontent.com/kien/rainbow_parentheses.vim/master/autoload/rainbow_parentheses.vim -P $HOME/.vim/autoload/;
 wget https://raw.github.com/kien/rainbow_parentheses.vim/master/plugin/rainbow_parentheses.vim -P $HOME/.vim/plugin/;
