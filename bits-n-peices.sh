@@ -10,5 +10,7 @@ sudo apt-get install -y redshift
 sudo apt-get install -y tlp tlp-rdw tpacpi-bat
 sudo apt-get install -y texlive texlive-latex-extra
 
-
 gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
+
+cp day ~/bin/
+cp night ~/bin/
