@@ -160,5 +160,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 5
 bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 5%+ #increase sound volume
 bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 5%- #decrease sound volume
 bindsym XF86AudioMute exec amixer -D pulse set Master 1+ toggle # mute sound
+
 exec ~/bin/autolock
 exec ~/bin/desktop-bg-i3.sh
+exec ~/bin/mouse.sh
+exec --no-startup-id redshift -O 4500k
+exec synclient TouchpadOff=1
