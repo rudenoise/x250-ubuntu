@@ -1,4 +1,4 @@
 #!/bin/bash
 
 redshift -O 3500k
-pkill -URS1 redshift
+pkill -USR1 redshift
