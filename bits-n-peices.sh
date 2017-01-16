@@ -7,6 +7,7 @@ sudo apt-get update
 
 sudo apt-get install -y pandoc
 sudo apt-get install -y redshift
+sudo apt-get install -y silversearcher-ag
 sudo apt-get install -y tlp tlp-rdw tpacpi-bat powertop
 sudo apt-get install -y texlive texlive-latex-extra
 
